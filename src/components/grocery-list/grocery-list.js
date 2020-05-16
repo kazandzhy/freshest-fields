@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import withGroceryStoreService from "../hoc";
 import { fetchItems, itemAddedToCart } from "../../actions";
 import { compose } from "../../utils";
-
 import Spinner from "../spinner";
 import ErrorIndicator from "../error-indicator";
 
