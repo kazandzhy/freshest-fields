@@ -1,0 +1,29 @@
+.grocery-list {
+  display: grid;
+  grid-template-columns: 14rem 14rem 14rem 14rem;
+  justify-content: space-around;
+  list-style: none;
+}
+
+ul.grocery-list {
+  margin-bottom: 3rem;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .grocery-list {
+    grid-template-columns: 14rem 14rem 14rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .grocery-list {
+    grid-template-columns: 14rem 14rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .grocery-list {
+    grid-template-columns: 90%;
+  }
+}

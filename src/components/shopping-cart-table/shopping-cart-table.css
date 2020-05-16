@@ -1,0 +1,77 @@
+.shopping-cart-table {
+  font-size: 1.2rem;
+}
+
+.shopping-cart-table h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.shopping-cart-table button.btn-md {
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: 2px 2px 5px 0.1px #8f8f8f;
+}
+
+.shopping-cart-table button.btn-md:focus {
+  box-shadow: 2px 2px 5px 0.1px #8f8f8f;
+}
+
+.table-header {
+  font-size: 1.2rem;
+}
+
+.table-item-num {
+  width: 10%;
+}
+
+.table-item {
+  width: 20%;
+}
+
+.table-count {
+  width: 10%;
+}
+
+.table-price {
+  width: 20%;
+}
+
+.table-action {
+  width: 40%;
+}
+
+tr.table-shadow {
+  box-shadow: 2px 2px 5px 0 #b8b8b8;
+}
+
+@media only screen and (max-width: 550px) {
+  .table td,
+  .table th {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  th.item-number,
+  td.item-number {
+    padding-left: 10px;
+  }
+
+  .shopping-cart-table {
+    font-size: 1rem;
+  }
+
+  .shopping-cart-table h2 {
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+
+  .table-header {
+    font-size: 1rem;
+  }
+
+  .shopping-cart-table button.btn-md {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}

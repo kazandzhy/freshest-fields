@@ -1,0 +1,63 @@
+.grocery-list-item {
+  display: grid;
+}
+
+.grocery-list-item .item-image {
+  width: 100%;
+}
+
+.grocery-list-item .item-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 0px #333;
+}
+
+.grocery-list-item .item-name {
+  z-index: 3;
+}
+
+.grocery-list-item .item-details {
+  display: grid;
+  grid-row-gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.grocery-list-item .item-details .item-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  justify-self: center;
+}
+
+.grocery-list-item .item-details .item-count {
+  font-size: 1.2rem;
+  justify-self: center;
+}
+
+.grocery-list-item .item-details .item-price {
+  font-size: 1.4rem;
+  justify-self: center;
+}
+
+button.add-to-cart {
+  font-size: 1.2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 10px 0 #666666;
+}
+
+button.add-to-cart:focus {
+  box-shadow: 2px 2px 10px 0 #666666;
+}
+
+button.add-to-cart:hover {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .add-to-cart {
+    font-size: 1.5rem;
+  }
+}
